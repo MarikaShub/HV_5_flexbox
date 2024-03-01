@@ -1,0 +1,26 @@
+.body {
+  background-color: rgb(168, 168, 219);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#main {
+  background-color: rgb(247, 229, 223);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section {
+  background-color: rgb(230, 150, 120);
+}
+
+aside {
+  background-color: rgb(180, 231, 214);
+}
+
+footer {
+  background-color: beige;
+}
