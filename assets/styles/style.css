@@ -12,9 +12,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 40vh;
 }
 section {
   background-color: rgb(230, 150, 120);
+  height: 20vh;
 }
 
 aside {
