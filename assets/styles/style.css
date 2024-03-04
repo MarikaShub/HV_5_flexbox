@@ -5,35 +5,51 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 10vh;
 }
 
 #main {
   background-color: rgb(247, 229, 223);
-  height: 40vh;
+  height: 63vh;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
+
+p {
+  text-align: center;
+}
+
 section {
   background-color: rgb(230, 150, 120);
   height: 10vh;
+  width: 60vw;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 10px;
 }
 
 aside {
+  height: 60vh;
+  width: 30vw;
+  float: right;
   background-color: rgb(180, 231, 214);
   display: flex;
-  align-items: right;
-  justify-content: space-around;
+  align-items: baseline;
+  padding: 10px;
 }
 
 footer {
   background-color: beige;
+  height: 10vh;
+  width: 100vw;
   display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-evenly;
 }
+
+/* .footer {
+  padding: 10px;
+  margin: 15px;
+} */
